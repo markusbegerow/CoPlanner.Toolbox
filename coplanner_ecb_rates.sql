@@ -1,3 +1,12 @@
+/*
+#########################################################
+Author:			Markus Begerow
+Created on:		01.03.2022
+Description:	Import ECB rates into CoPlanner
+Version:		1.0.0
+#########################################################
+*/
+
 Declare @Object as Int; 
 Declare @Url as Varchar(MAX); 
 DECLARE @json AS TABLE(Json_Table NVARCHAR(MAX))
