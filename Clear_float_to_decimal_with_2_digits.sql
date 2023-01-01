@@ -1,7 +1,14 @@
+/*
+#########################################################
+Author:			Markus Begerow
+Created on:		01.09.2022
+Description:	Clearing float to decimal
+Version:		1.0.0
+#########################################################
+*/
 
 
-
-SELECT [UmsatzLC]																																		as Original
+SELECT [UmsatzLC]                                                                       as Original
 ,FORMAT([UmsatzLC], '')																																	as OriginalFormat
 ,substring(FORMAT([UmsatzLC], ''), 0, CHARINDEX('.',FORMAT([UmsatzLC], '') ,0)+3)																		as OriginalFormatPlusZweiNachkommastellen
 ,substring(FORMAT([UmsatzLC], ''), CHARINDEX('.',FORMAT([UmsatzLC], '') ,0)+1, LEN(FORMAT([UmsatzLC], ''))-CHARINDEX('.',FORMAT([UmsatzLC], '')))		as OriginalFormatNurNahkommastellen
