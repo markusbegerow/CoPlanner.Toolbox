@@ -1,3 +1,12 @@
+#
+#########################################################
+#Author:	Markus Begerow
+#Created on:	01.09.2022
+#Description:	Python snippets for CoPlanner
+#Version:	1.0.0
+#########################################################
+#
+
 import requests
 
 server = ""
