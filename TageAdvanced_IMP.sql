@@ -1,3 +1,12 @@
+/*
+#########################################################
+Author:		Markus Begerow
+Created on:	01.06.2022
+Description:	Nice extension for CoPlanner DimDate with holidays
+Version:	1.0.0
+#########################################################
+*/
+
 CREATE PROCEDURE [dbo].[TageAdvanced_IMP] as 
 
 SET NOCOUNT ON
